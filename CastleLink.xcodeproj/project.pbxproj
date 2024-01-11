@@ -1,0 +1,1183 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0558D39E287C4FBB00406344 /* LoginAndRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0558D39D287C4FBB00406344 /* LoginAndRegisterView.swift */; };
+		05807F712890092F00E08D22 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05807F702890092F00E08D22 /* HideKeyboard.swift */; };
+		05807F722890092F00E08D22 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05807F702890092F00E08D22 /* HideKeyboard.swift */; };
+		05807F7728902D5800E08D22 /* ResetPasswordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05807F7628902D5800E08D22 /* ResetPasswordData.swift */; };
+		05807F7828902D5800E08D22 /* ResetPasswordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05807F7628902D5800E08D22 /* ResetPasswordData.swift */; };
+		0598782C28893D6000B91782 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598782B28893D6000B91782 /* LoginData.swift */; };
+		0598782D28893D6000B91782 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598782B28893D6000B91782 /* LoginData.swift */; };
+		0598783028893E9B00B91782 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598782F28893E9B00B91782 /* Validator.swift */; };
+		0598783128893E9B00B91782 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598782F28893E9B00B91782 /* Validator.swift */; };
+		059878332889428800B91782 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059878322889428800B91782 /* AppInfo.swift */; };
+		059878342889428800B91782 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059878322889428800B91782 /* AppInfo.swift */; };
+		059878362889519700B91782 /* RegistedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059878352889519700B91782 /* RegistedData.swift */; };
+		059878372889519700B91782 /* RegistedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059878352889519700B91782 /* RegistedData.swift */; };
+		0598783B288A981300B91782 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0598783A288A981300B91782 /* FirebaseAnalytics */; };
+		0598783D288A981300B91782 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0598783C288A981300B91782 /* FirebaseAuth */; };
+		0598783F288A981300B91782 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 0598783E288A981300B91782 /* FirebaseAuthCombine-Community */; };
+		05987841288A981300B91782 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 05987840288A981300B91782 /* FirebaseCrashlytics */; };
+		05987843288A981300B91782 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 05987842288A981300B91782 /* FirebaseDatabase */; };
+		05987845288A981300B91782 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 05987844288A981300B91782 /* FirebaseFirestore */; };
+		05987849288A9AF100B91782 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05987848288A9AF100B91782 /* GoogleService-Info.plist */; };
+		0598784C288A9C7D00B91782 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598784B288A9C7D00B91782 /* HomeView.swift */; };
+		0598784E288AA28600B91782 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598784D288AA28600B91782 /* ErrorView.swift */; };
+		05987850288AAF7600B91782 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598784F288AAF7600B91782 /* UserData.swift */; };
+		05987851288AAF7600B91782 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0598784F288AAF7600B91782 /* UserData.swift */; };
+		05987853288AD46900B91782 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05987852288AD46900B91782 /* ForgotPasswordView.swift */; };
+		05987854288AD46900B91782 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05987852288AD46900B91782 /* ForgotPasswordView.swift */; };
+		059B33242881576F0054502F /* CastleLinkFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059B33232881576F0054502F /* CastleLinkFooterView.swift */; };
+		059B33252881576F0054502F /* CastleLinkFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059B33232881576F0054502F /* CastleLinkFooterView.swift */; };
+		059B332728815C650054502F /* RegisterAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059B332628815C650054502F /* RegisterAccountView.swift */; };
+		059B332A28815C9D0054502F /* LoginRegisterActionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059B332928815C9D0054502F /* LoginRegisterActionRow.swift */; };
+		059B3330288183FB0054502F /* CastleLinkHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059B332F288183FB0054502F /* CastleLinkHeaderView.swift */; };
+		059B3331288183FB0054502F /* CastleLinkHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059B332F288183FB0054502F /* CastleLinkHeaderView.swift */; };
+		059B3333288184EE0054502F /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059B3332288184EE0054502F /* AboutView.swift */; };
+		059B3334288184EE0054502F /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059B3332288184EE0054502F /* AboutView.swift */; };
+		059B33362881AAEE0054502F /* LoadingSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059B33352881AAEE0054502F /* LoadingSpinner.swift */; };
+		059B33372881AAEE0054502F /* LoadingSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059B33352881AAEE0054502F /* LoadingSpinner.swift */; };
+		05B889742886DB34004D33F1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B889732886DB34004D33F1 /* LoadingView.swift */; };
+		05B889752886DB34004D33F1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B889732886DB34004D33F1 /* LoadingView.swift */; };
+		05B88978288729F1004D33F1 /* TextFieldShowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B88977288729F1004D33F1 /* TextFieldShowError.swift */; };
+		05B88979288729F1004D33F1 /* TextFieldShowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B88977288729F1004D33F1 /* TextFieldShowError.swift */; };
+		05E3AA89287DBE1A0040D730 /* CastleTextFieldStype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E3AA88287DBE1A0040D730 /* CastleTextFieldStype.swift */; };
+		05E3AA8A287DBE1A0040D730 /* CastleTextFieldStype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E3AA88287DBE1A0040D730 /* CastleTextFieldStype.swift */; };
+		05E3AA8C287F56450040D730 /* CastleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E3AA8B287F56450040D730 /* CastleTextField.swift */; };
+		05E3AA8D287F56450040D730 /* CastleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E3AA8B287F56450040D730 /* CastleTextField.swift */; };
+		05E3AA90288049A70040D730 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E3AA8F288049A70040D730 /* LoginView.swift */; };
+		05E5C8942891738F00C69817 /* CastleLinkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5C8932891738F00C69817 /* CastleLinkError.swift */; };
+		05E5C8952891738F00C69817 /* CastleLinkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5C8932891738F00C69817 /* CastleLinkError.swift */; };
+		EC09E16F283D6C670013E7BC /* SettingValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09E16E283D6C670013E7BC /* SettingValue.swift */; };
+		EC09E170283D6C670013E7BC /* SettingValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09E16E283D6C670013E7BC /* SettingValue.swift */; };
+		EC09E172283D6E8A0013E7BC /* SettingValueSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09E171283D6E8A0013E7BC /* SettingValueSet.swift */; };
+		EC09E173283D6E8A0013E7BC /* SettingValueSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09E171283D6E8A0013E7BC /* SettingValueSet.swift */; };
+		EC09E175283D708D0013E7BC /* SettingMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09E174283D708D0013E7BC /* SettingMemory.swift */; };
+		EC09E176283D708D0013E7BC /* SettingMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09E174283D708D0013E7BC /* SettingMemory.swift */; };
+		EC09E178283FA4CF0013E7BC /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09E177283FA4CF0013E7BC /* Debug.swift */; };
+		EC09E179283FA4CF0013E7BC /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09E177283FA4CF0013E7BC /* Debug.swift */; };
+		EC09E17B283FC79D0013E7BC /* DebugSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09E17A283FC79D0013E7BC /* DebugSheet.swift */; };
+		EC09E17C283FC79D0013E7BC /* DebugSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC09E17A283FC79D0013E7BC /* DebugSheet.swift */; };
+		EC1CB6A3284FB0710061ED52 /* ControlRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CB6A2284FB0710061ED52 /* ControlRequests.swift */; };
+		EC1CB6A4284FB0710061ED52 /* ControlRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CB6A2284FB0710061ED52 /* ControlRequests.swift */; };
+		EC1CB6A6284FB3000061ED52 /* ControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CB6A5284FB3000061ED52 /* ControllerView.swift */; };
+		EC1CB6A7284FB3000061ED52 /* ControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1CB6A5284FB3000061ED52 /* ControllerView.swift */; };
+		EC35F434284E773E00E99EF8 /* BluetoothRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35F433284E773E00E99EF8 /* BluetoothRequest.swift */; };
+		EC35F435284E773E00E99EF8 /* BluetoothRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35F433284E773E00E99EF8 /* BluetoothRequest.swift */; };
+		EC39A51B28332CE800B25F7A /* CastleToggleSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39A51A28332CE800B25F7A /* CastleToggleSwitch.swift */; };
+		EC39A51C28332CE800B25F7A /* CastleToggleSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39A51A28332CE800B25F7A /* CastleToggleSwitch.swift */; };
+		EC39A51E28333E2B00B25F7A /* CastleSegmentGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39A51D28333E2B00B25F7A /* CastleSegmentGrid.swift */; };
+		EC39A51F28333E2B00B25F7A /* CastleSegmentGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39A51D28333E2B00B25F7A /* CastleSegmentGrid.swift */; };
+		EC39A5212833C0A200B25F7A /* CastleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39A5202833C0A200B25F7A /* CastleButtonStyle.swift */; };
+		EC39A5222833C0A200B25F7A /* CastleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39A5202833C0A200B25F7A /* CastleButtonStyle.swift */; };
+		EC4371DF285BB9E300DD7BBA /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4371DE285BB9E300DD7BBA /* SidebarView.swift */; };
+		EC4371E1285BBE3300DD7BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4371E0285BBE3300DD7BBA /* AppDelegate.swift */; };
+		EC4371E3285C083800DD7BBA /* LinkControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4371E2285C083800DD7BBA /* LinkControllerView.swift */; };
+		EC6132E627FCB609003019EA /* DemoSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6132D527FCB608003019EA /* DemoSelectView.swift */; };
+		EC6132E827FCB609003019EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6132D627FCB609003019EA /* Assets.xcassets */; };
+		EC6132E927FCB609003019EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6132D627FCB609003019EA /* Assets.xcassets */; };
+		EC6132F627FCC036003019EA /* ProductData.cldb in Resources */ = {isa = PBXBuildFile; fileRef = EC6132F527FCC036003019EA /* ProductData.cldb */; };
+		EC6132F727FCC036003019EA /* ProductData.cldb in Resources */ = {isa = PBXBuildFile; fileRef = EC6132F527FCC036003019EA /* ProductData.cldb */; };
+		EC6132FC27FCC0DC003019EA /* ProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6132FB27FCC0DC003019EA /* ProductData.swift */; };
+		EC6132FD27FCC0DC003019EA /* ProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6132FB27FCC0DC003019EA /* ProductData.swift */; };
+		EC61330027FDCC47003019EA /* SettingGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6132FF27FDCC47003019EA /* SettingGroup.swift */; };
+		EC61330127FDCC47003019EA /* SettingGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6132FF27FDCC47003019EA /* SettingGroup.swift */; };
+		EC61330327FDCEBC003019EA /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61330227FDCEBC003019EA /* Setting.swift */; };
+		EC61330427FDCEBC003019EA /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61330227FDCEBC003019EA /* Setting.swift */; };
+		EC6C16E4282EF15F00027C31 /* CurveEditorHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C16E3282EF15F00027C31 /* CurveEditorHighlight.swift */; };
+		EC6C16E5282EF15F00027C31 /* CurveEditorHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C16E3282EF15F00027C31 /* CurveEditorHighlight.swift */; };
+		EC6C16E8282EF6C800027C31 /* Curve.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C16E7282EF6C800027C31 /* Curve.swift */; };
+		EC6C16E9282EF6C800027C31 /* Curve.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C16E7282EF6C800027C31 /* Curve.swift */; };
+		EC86F67F283402F3007AB7B8 /* CastleSegmentSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86F67E283402F3007AB7B8 /* CastleSegmentSelector.swift */; };
+		EC86F680283402F3007AB7B8 /* CastleSegmentSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86F67E283402F3007AB7B8 /* CastleSegmentSelector.swift */; };
+		EC86F6822834524E007AB7B8 /* CastleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86F6812834524E007AB7B8 /* CastleSlider.swift */; };
+		EC86F6832834524E007AB7B8 /* CastleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86F6812834524E007AB7B8 /* CastleSlider.swift */; };
+		EC86F685283455C1007AB7B8 /* CastleSliderKnob.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86F684283455C1007AB7B8 /* CastleSliderKnob.swift */; };
+		EC86F686283455C1007AB7B8 /* CastleSliderKnob.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86F684283455C1007AB7B8 /* CastleSliderKnob.swift */; };
+		EC86F68828348A40007AB7B8 /* SettingRowHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86F68728348A40007AB7B8 /* SettingRowHelp.swift */; };
+		EC86F68928348A40007AB7B8 /* SettingRowHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86F68728348A40007AB7B8 /* SettingRowHelp.swift */; };
+		EC86F68E28355E0F007AB7B8 /* CurveEditorControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86F68D28355E0F007AB7B8 /* CurveEditorControls.swift */; };
+		EC86F68F28355E0F007AB7B8 /* CurveEditorControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86F68D28355E0F007AB7B8 /* CurveEditorControls.swift */; };
+		EC86F694283BD87D007AB7B8 /* CurvePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86F693283BD87D007AB7B8 /* CurvePoint.swift */; };
+		EC86F695283BD87D007AB7B8 /* CurvePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86F693283BD87D007AB7B8 /* CurvePoint.swift */; };
+		ECBEBEE327FF7BA3007B66BA /* DemoSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBEBEE227FF7BA3007B66BA /* DemoSettingsView.swift */; };
+		ECBEBEE427FF7BA3007B66BA /* DemoSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBEBEE227FF7BA3007B66BA /* DemoSettingsView.swift */; };
+		ECBEBEE627FF7E55007B66BA /* SettingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBEBEE527FF7E55007B66BA /* SettingRow.swift */; };
+		ECBEBEE727FF7E55007B66BA /* SettingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBEBEE527FF7E55007B66BA /* SettingRow.swift */; };
+		ECC9C786285C37CF00EC373B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC9C784285C37CF00EC373B /* Main.storyboard */; };
+		ECC9C788285C38C000EC373B /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9C787285C38C000EC373B /* ToolbarView.swift */; };
+		ECC9C789285C398100EC373B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9C783285C37A000EC373B /* MainViewController.swift */; };
+		ECC9C78B285C39E400EC373B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9C78A285C39E400EC373B /* HomeView.swift */; };
+		ECC9C78D285C427A00EC373B /* DemoModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9C78C285C427A00EC373B /* DemoModeView.swift */; };
+		ECC9C78F285CCBF900EC373B /* DemoModeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9C78E285CCBF900EC373B /* DemoModeSection.swift */; };
+		ECC9C791285CF84000EC373B /* ControllerSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9C790285CF84000EC373B /* ControllerSettingsView.swift */; };
+		ECC9C793285CF98500EC373B /* DemoModeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9C792285CF98500EC373B /* DemoModeItemView.swift */; };
+		ECC9C795285D024000EC373B /* DetailTwoPaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9C794285D024000EC373B /* DetailTwoPaneView.swift */; };
+		ECC9C797285D053C00EC373B /* ControllerSettingsSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9C796285D053C00EC373B /* ControllerSettingsSections.swift */; };
+		ECC9C799285D0B1700EC373B /* LinkControllerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9C798285D0B1700EC373B /* LinkControllerRow.swift */; };
+		ECCEEE70282C65BC00837467 /* SettingRowHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE6F282C65BC00837467 /* SettingRowHeader.swift */; };
+		ECCEEE71282C65BC00837467 /* SettingRowHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE6F282C65BC00837467 /* SettingRowHeader.swift */; };
+		ECCEEE73282C743400837467 /* SettingRowSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE72282C743400837467 /* SettingRowSwitch.swift */; };
+		ECCEEE74282C743400837467 /* SettingRowSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE72282C743400837467 /* SettingRowSwitch.swift */; };
+		ECCEEE76282C78B700837467 /* SettingRowCombo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE75282C78B700837467 /* SettingRowCombo.swift */; };
+		ECCEEE77282C78B700837467 /* SettingRowCombo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE75282C78B700837467 /* SettingRowCombo.swift */; };
+		ECCEEE79282C806A00837467 /* SettingRowSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE78282C806A00837467 /* SettingRowSlider.swift */; };
+		ECCEEE7A282C806A00837467 /* SettingRowSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE78282C806A00837467 /* SettingRowSlider.swift */; };
+		ECCEEE7C282C92A800837467 /* SettingLinearSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE7B282C92A800837467 /* SettingLinearSpinner.swift */; };
+		ECCEEE7D282C92A800837467 /* SettingLinearSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE7B282C92A800837467 /* SettingLinearSpinner.swift */; };
+		ECCEEE7F282D643C00837467 /* SettingRowCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE7E282D643C00837467 /* SettingRowCurve.swift */; };
+		ECCEEE80282D643C00837467 /* SettingRowCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE7E282D643C00837467 /* SettingRowCurve.swift */; };
+		ECCEEE82282D7B3A00837467 /* ProductHeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE81282D7B3A00837467 /* ProductHeaderRow.swift */; };
+		ECCEEE83282D7B3A00837467 /* ProductHeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE81282D7B3A00837467 /* ProductHeaderRow.swift */; };
+		ECCEEE85282DA90400837467 /* ProductActionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE84282DA90400837467 /* ProductActionRow.swift */; };
+		ECCEEE86282DA90400837467 /* ProductActionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE84282DA90400837467 /* ProductActionRow.swift */; };
+		ECCEEE89282EBB7200837467 /* AnimatedCellHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE88282EBB7100837467 /* AnimatedCellHeight.swift */; };
+		ECCEEE8A282EBB7200837467 /* AnimatedCellHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE88282EBB7100837467 /* AnimatedCellHeight.swift */; };
+		ECCEEE8C282EBC1400837467 /* CurveEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE8B282EBC1400837467 /* CurveEditor.swift */; };
+		ECCEEE8D282EBC1400837467 /* CurveEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE8B282EBC1400837467 /* CurveEditor.swift */; };
+		ECCEEE8F282EBE6C00837467 /* CurveEditorHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE8E282EBE6C00837467 /* CurveEditorHandle.swift */; };
+		ECCEEE90282EBE6C00837467 /* CurveEditorHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE8E282EBE6C00837467 /* CurveEditorHandle.swift */; };
+		ECCEEE93282EC5C000837467 /* CastleLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEEE92282EC5C000837467 /* CastleLinkApp.swift */; };
+		ECD7522A283D55FA00B34AD4 /* SettingsHelpSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD75229283D55FA00B34AD4 /* SettingsHelpSheet.swift */; };
+		ECD7522B283D55FA00B34AD4 /* SettingsHelpSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD75229283D55FA00B34AD4 /* SettingsHelpSheet.swift */; };
+		ECE455812852CFB900641726 /* ESC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE455802852CFB900641726 /* ESC.swift */; };
+		ECE455822852CFB900641726 /* ESC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE455802852CFB900641726 /* ESC.swift */; };
+		ECE68703284FEFDD002430D6 /* ClassicRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE68702284FEFDD002430D6 /* ClassicRequests.swift */; };
+		ECE68704284FEFDD002430D6 /* ClassicRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE68702284FEFDD002430D6 /* ClassicRequests.swift */; };
+		ECE6870628518440002430D6 /* LargeRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE6870528518440002430D6 /* LargeRequests.swift */; };
+		ECE6870728518440002430D6 /* LargeRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE6870528518440002430D6 /* LargeRequests.swift */; };
+		ECEB22682846975900F5CA1B /* DemoSelectSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB22672846975900F5CA1B /* DemoSelectSection.swift */; };
+		ECEB226B2846989E00F5CA1B /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB226A2846989E00F5CA1B /* Line.swift */; };
+		ECEB226C2846989E00F5CA1B /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB226A2846989E00F5CA1B /* Line.swift */; };
+		ECEB226E2847ED8700F5CA1B /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB226D2847ED8700F5CA1B /* Bluetooth.swift */; };
+		ECEB226F2847ED8700F5CA1B /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB226D2847ED8700F5CA1B /* Bluetooth.swift */; };
+		ECEB22712847FF6B00F5CA1B /* LinkControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB22702847FF6B00F5CA1B /* LinkControllerView.swift */; };
+		ECEB22742848435200F5CA1B /* BluetoothDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB22732848435200F5CA1B /* BluetoothDevice.swift */; };
+		ECEB22752848435200F5CA1B /* BluetoothDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB22732848435200F5CA1B /* BluetoothDevice.swift */; };
+		ECEB2277284864F200F5CA1B /* LinkControllerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB2276284864F200F5CA1B /* LinkControllerRow.swift */; };
+		ECEB227A284A8DA600F5CA1B /* RowBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB2279284A8DA600F5CA1B /* RowBackground.swift */; };
+		ECEB227B284A8DA600F5CA1B /* RowBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB2279284A8DA600F5CA1B /* RowBackground.swift */; };
+		ECF16DCC2857CB59000BE51D /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF16DCB2857CB59000BE51D /* PasscodeView.swift */; };
+		ECF16DCD2857CB59000BE51D /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF16DCB2857CB59000BE51D /* PasscodeView.swift */; };
+		ECF16DCF2857CD85000BE51D /* PasscodeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF16DCE2857CD85000BE51D /* PasscodeButton.swift */; };
+		ECF16DD02857CD85000BE51D /* PasscodeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF16DCE2857CD85000BE51D /* PasscodeButton.swift */; };
+		ECF6F84E27FE8A0A00C5FD1A /* SettingOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF6F84D27FE8A0A00C5FD1A /* SettingOption.swift */; };
+		ECF6F84F27FE8A0A00C5FD1A /* SettingOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF6F84D27FE8A0A00C5FD1A /* SettingOption.swift */; };
+		ECF6F85127FE900300C5FD1A /* SettingSubgroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF6F85027FE900300C5FD1A /* SettingSubgroup.swift */; };
+		ECF6F85227FE900300C5FD1A /* SettingSubgroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF6F85027FE900300C5FD1A /* SettingSubgroup.swift */; };
+		ECF6F85427FE9C6400C5FD1A /* MultiLang.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF6F85327FE9C6400C5FD1A /* MultiLang.swift */; };
+		ECF6F85527FE9C6400C5FD1A /* MultiLang.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF6F85327FE9C6400C5FD1A /* MultiLang.swift */; };
+		ECF6F85727FF350500C5FD1A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF6F85627FF350500C5FD1A /* Product.swift */; };
+		ECF6F85827FF350500C5FD1A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF6F85627FF350500C5FD1A /* Product.swift */; };
+		ECF6F85A27FF35F200C5FD1A /* Firmware.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF6F85927FF35F200C5FD1A /* Firmware.swift */; };
+		ECF6F85B27FF35F200C5FD1A /* Firmware.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF6F85927FF35F200C5FD1A /* Firmware.swift */; };
+		ECF6F85D27FF39C400C5FD1A /* ConnectHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF6F85C27FF39C400C5FD1A /* ConnectHelp.swift */; };
+		ECF6F85E27FF39C400C5FD1A /* ConnectHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF6F85C27FF39C400C5FD1A /* ConnectHelp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0558D39D287C4FBB00406344 /* LoginAndRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAndRegisterView.swift; sourceTree = "<group>"; };
+		05807F702890092F00E08D22 /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
+		05807F7628902D5800E08D22 /* ResetPasswordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordData.swift; sourceTree = "<group>"; };
+		0598782B28893D6000B91782 /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+		0598782F28893E9B00B91782 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		059878322889428800B91782 /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		059878352889519700B91782 /* RegistedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistedData.swift; sourceTree = "<group>"; };
+		05987848288A9AF100B91782 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0598784B288A9C7D00B91782 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0598784D288AA28600B91782 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		0598784F288AAF7600B91782 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		05987852288AD46900B91782 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		059B33232881576F0054502F /* CastleLinkFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastleLinkFooterView.swift; sourceTree = "<group>"; };
+		059B332628815C650054502F /* RegisterAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterAccountView.swift; sourceTree = "<group>"; };
+		059B332928815C9D0054502F /* LoginRegisterActionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterActionRow.swift; sourceTree = "<group>"; };
+		059B332F288183FB0054502F /* CastleLinkHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleLinkHeaderView.swift; sourceTree = "<group>"; };
+		059B3332288184EE0054502F /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		059B33352881AAEE0054502F /* LoadingSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSpinner.swift; sourceTree = "<group>"; };
+		05B889732886DB34004D33F1 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		05B88977288729F1004D33F1 /* TextFieldShowError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldShowError.swift; sourceTree = "<group>"; };
+		05E3AA88287DBE1A0040D730 /* CastleTextFieldStype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleTextFieldStype.swift; sourceTree = "<group>"; };
+		05E3AA8B287F56450040D730 /* CastleTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleTextField.swift; sourceTree = "<group>"; };
+		05E3AA8F288049A70040D730 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		05E5C8932891738F00C69817 /* CastleLinkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastleLinkError.swift; sourceTree = "<group>"; };
+		EC09E16E283D6C670013E7BC /* SettingValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingValue.swift; sourceTree = "<group>"; };
+		EC09E171283D6E8A0013E7BC /* SettingValueSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingValueSet.swift; sourceTree = "<group>"; };
+		EC09E174283D708D0013E7BC /* SettingMemory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingMemory.swift; sourceTree = "<group>"; };
+		EC09E177283FA4CF0013E7BC /* Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
+		EC09E17A283FC79D0013E7BC /* DebugSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugSheet.swift; sourceTree = "<group>"; };
+		EC1CB6A2284FB0710061ED52 /* ControlRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlRequests.swift; sourceTree = "<group>"; };
+		EC1CB6A5284FB3000061ED52 /* ControllerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerView.swift; sourceTree = "<group>"; };
+		EC35F433284E773E00E99EF8 /* BluetoothRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothRequest.swift; sourceTree = "<group>"; };
+		EC39A51A28332CE800B25F7A /* CastleToggleSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastleToggleSwitch.swift; sourceTree = "<group>"; };
+		EC39A51D28333E2B00B25F7A /* CastleSegmentGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastleSegmentGrid.swift; sourceTree = "<group>"; };
+		EC39A5202833C0A200B25F7A /* CastleButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastleButtonStyle.swift; sourceTree = "<group>"; };
+		EC4371DE285BB9E300DD7BBA /* SidebarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		EC4371E0285BBE3300DD7BBA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC4371E2285C083800DD7BBA /* LinkControllerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkControllerView.swift; sourceTree = "<group>"; };
+		EC6132D527FCB608003019EA /* DemoSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSelectView.swift; sourceTree = "<group>"; };
+		EC6132D627FCB609003019EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC6132DB27FCB609003019EA /* CastleLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CastleLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6132E127FCB609003019EA /* CastleLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CastleLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6132E327FCB609003019EA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		EC6132F527FCC036003019EA /* ProductData.cldb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProductData.cldb; sourceTree = SOURCE_ROOT; };
+		EC6132FB27FCC0DC003019EA /* ProductData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductData.swift; sourceTree = "<group>"; };
+		EC6132FF27FDCC47003019EA /* SettingGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingGroup.swift; sourceTree = "<group>"; };
+		EC61330227FDCEBC003019EA /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		EC6C16E2282EE7CE00027C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6C16E3282EF15F00027C31 /* CurveEditorHighlight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurveEditorHighlight.swift; sourceTree = "<group>"; };
+		EC6C16E7282EF6C800027C31 /* Curve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Curve.swift; sourceTree = "<group>"; };
+		EC86F67E283402F3007AB7B8 /* CastleSegmentSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastleSegmentSelector.swift; sourceTree = "<group>"; };
+		EC86F6812834524E007AB7B8 /* CastleSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastleSlider.swift; sourceTree = "<group>"; };
+		EC86F684283455C1007AB7B8 /* CastleSliderKnob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastleSliderKnob.swift; sourceTree = "<group>"; };
+		EC86F68728348A40007AB7B8 /* SettingRowHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingRowHelp.swift; sourceTree = "<group>"; };
+		EC86F68D28355E0F007AB7B8 /* CurveEditorControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurveEditorControls.swift; sourceTree = "<group>"; };
+		EC86F693283BD87D007AB7B8 /* CurvePoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvePoint.swift; sourceTree = "<group>"; };
+		ECBEBEE227FF7BA3007B66BA /* DemoSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSettingsView.swift; sourceTree = "<group>"; };
+		ECBEBEE527FF7E55007B66BA /* SettingRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingRow.swift; sourceTree = "<group>"; };
+		ECC9C783285C37A000EC373B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		ECC9C785285C37CF00EC373B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECC9C787285C38C000EC373B /* ToolbarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		ECC9C78A285C39E400EC373B /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ECC9C78C285C427A00EC373B /* DemoModeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoModeView.swift; sourceTree = "<group>"; };
+		ECC9C78E285CCBF900EC373B /* DemoModeSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoModeSection.swift; sourceTree = "<group>"; };
+		ECC9C790285CF84000EC373B /* ControllerSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerSettingsView.swift; sourceTree = "<group>"; };
+		ECC9C792285CF98500EC373B /* DemoModeItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoModeItemView.swift; sourceTree = "<group>"; };
+		ECC9C794285D024000EC373B /* DetailTwoPaneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTwoPaneView.swift; sourceTree = "<group>"; };
+		ECC9C796285D053C00EC373B /* ControllerSettingsSections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerSettingsSections.swift; sourceTree = "<group>"; };
+		ECC9C798285D0B1700EC373B /* LinkControllerRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkControllerRow.swift; sourceTree = "<group>"; };
+		ECCEEE6F282C65BC00837467 /* SettingRowHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingRowHeader.swift; sourceTree = "<group>"; };
+		ECCEEE72282C743400837467 /* SettingRowSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingRowSwitch.swift; sourceTree = "<group>"; };
+		ECCEEE75282C78B700837467 /* SettingRowCombo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingRowCombo.swift; sourceTree = "<group>"; };
+		ECCEEE78282C806A00837467 /* SettingRowSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingRowSlider.swift; sourceTree = "<group>"; };
+		ECCEEE7B282C92A800837467 /* SettingLinearSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingLinearSpinner.swift; sourceTree = "<group>"; };
+		ECCEEE7E282D643C00837467 /* SettingRowCurve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingRowCurve.swift; sourceTree = "<group>"; };
+		ECCEEE81282D7B3A00837467 /* ProductHeaderRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductHeaderRow.swift; sourceTree = "<group>"; };
+		ECCEEE84282DA90400837467 /* ProductActionRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductActionRow.swift; sourceTree = "<group>"; };
+		ECCEEE88282EBB7100837467 /* AnimatedCellHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedCellHeight.swift; sourceTree = "<group>"; };
+		ECCEEE8B282EBC1400837467 /* CurveEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurveEditor.swift; sourceTree = "<group>"; };
+		ECCEEE8E282EBE6C00837467 /* CurveEditorHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurveEditorHandle.swift; sourceTree = "<group>"; };
+		ECCEEE92282EC5C000837467 /* CastleLinkApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastleLinkApp.swift; sourceTree = "<group>"; };
+		ECCEEE98282ECB0600837467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD75229283D55FA00B34AD4 /* SettingsHelpSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsHelpSheet.swift; sourceTree = "<group>"; };
+		ECE455802852CFB900641726 /* ESC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESC.swift; sourceTree = "<group>"; };
+		ECE68702284FEFDD002430D6 /* ClassicRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicRequests.swift; sourceTree = "<group>"; };
+		ECE6870528518440002430D6 /* LargeRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeRequests.swift; sourceTree = "<group>"; };
+		ECEB22672846975900F5CA1B /* DemoSelectSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSelectSection.swift; sourceTree = "<group>"; };
+		ECEB226A2846989E00F5CA1B /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		ECEB226D2847ED8700F5CA1B /* Bluetooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bluetooth.swift; sourceTree = "<group>"; };
+		ECEB22702847FF6B00F5CA1B /* LinkControllerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkControllerView.swift; sourceTree = "<group>"; };
+		ECEB22732848435200F5CA1B /* BluetoothDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothDevice.swift; sourceTree = "<group>"; };
+		ECEB2276284864F200F5CA1B /* LinkControllerRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkControllerRow.swift; sourceTree = "<group>"; };
+		ECEB2279284A8DA600F5CA1B /* RowBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowBackground.swift; sourceTree = "<group>"; };
+		ECF16DCB2857CB59000BE51D /* PasscodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
+		ECF16DCE2857CD85000BE51D /* PasscodeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeButton.swift; sourceTree = "<group>"; };
+		ECF6F84D27FE8A0A00C5FD1A /* SettingOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingOption.swift; sourceTree = "<group>"; };
+		ECF6F85027FE900300C5FD1A /* SettingSubgroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingSubgroup.swift; sourceTree = "<group>"; };
+		ECF6F85327FE9C6400C5FD1A /* MultiLang.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiLang.swift; sourceTree = "<group>"; };
+		ECF6F85627FF350500C5FD1A /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		ECF6F85927FF35F200C5FD1A /* Firmware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Firmware.swift; sourceTree = "<group>"; };
+		ECF6F85C27FF39C400C5FD1A /* ConnectHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectHelp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6132D827FCB609003019EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05987843288A981300B91782 /* FirebaseDatabase in Frameworks */,
+				0598783B288A981300B91782 /* FirebaseAnalytics in Frameworks */,
+				05987841288A981300B91782 /* FirebaseCrashlytics in Frameworks */,
+				0598783F288A981300B91782 /* FirebaseAuthCombine-Community in Frameworks */,
+				0598783D288A981300B91782 /* FirebaseAuth in Frameworks */,
+				05987845288A981300B91782 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6132DE27FCB609003019EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0598782E28893E7E00B91782 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0598782F28893E9B00B91782 /* Validator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		059878382889537000B91782 /* LoginAndRegistration */ = {
+			isa = PBXGroup;
+			children = (
+				05987852288AD46900B91782 /* ForgotPasswordView.swift */,
+				0558D39D287C4FBB00406344 /* LoginAndRegisterView.swift */,
+				059B332928815C9D0054502F /* LoginRegisterActionRow.swift */,
+				05E3AA8F288049A70040D730 /* LoginView.swift */,
+				059B332628815C650054502F /* RegisterAccountView.swift */,
+			);
+			path = LoginAndRegistration;
+			sourceTree = "<group>";
+		};
+		0598784A288A9C7100B91782 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0598784B288A9C7D00B91782 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		05E5C8922891717700C69817 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				05E5C8932891738F00C69817 /* CastleLinkError.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		EC09E17D283FCC000013E7BC /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				EC09E177283FA4CF0013E7BC /* Debug.swift */,
+				EC09E17A283FC79D0013E7BC /* DebugSheet.swift */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		EC35F436284E95D100E99EF8 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				ECEB226D2847ED8700F5CA1B /* Bluetooth.swift */,
+				ECEB22732848435200F5CA1B /* BluetoothDevice.swift */,
+				EC35F433284E773E00E99EF8 /* BluetoothRequest.swift */,
+				ECE68702284FEFDD002430D6 /* ClassicRequests.swift */,
+				EC1CB6A2284FB0710061ED52 /* ControlRequests.swift */,
+				ECE6870528518440002430D6 /* LargeRequests.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		EC39A51928332CD400B25F7A /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				05E3AA8B287F56450040D730 /* CastleTextField.swift */,
+				05E3AA88287DBE1A0040D730 /* CastleTextFieldStype.swift */,
+				EC39A5202833C0A200B25F7A /* CastleButtonStyle.swift */,
+				EC39A51D28333E2B00B25F7A /* CastleSegmentGrid.swift */,
+				EC86F67E283402F3007AB7B8 /* CastleSegmentSelector.swift */,
+				EC86F6812834524E007AB7B8 /* CastleSlider.swift */,
+				EC86F684283455C1007AB7B8 /* CastleSliderKnob.swift */,
+				EC39A51A28332CE800B25F7A /* CastleToggleSwitch.swift */,
+				ECCEEE8B282EBC1400837467 /* CurveEditor.swift */,
+				EC86F68D28355E0F007AB7B8 /* CurveEditorControls.swift */,
+				ECCEEE8E282EBE6C00837467 /* CurveEditorHandle.swift */,
+				EC6C16E3282EF15F00027C31 /* CurveEditorHighlight.swift */,
+				ECEB226A2846989E00F5CA1B /* Line.swift */,
+				ECF16DCE2857CD85000BE51D /* PasscodeButton.swift */,
+				ECEB2279284A8DA600F5CA1B /* RowBackground.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		EC6132CE27FCB608003019EA = {
+			isa = PBXGroup;
+			children = (
+				EC6132D327FCB608003019EA /* Shared */,
+				ECCEEE91282EC59D00837467 /* iOS */,
+				EC6132E227FCB609003019EA /* macOS */,
+				EC6132DC27FCB609003019EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6132D327FCB608003019EA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				05E5C8922891717700C69817 /* Repository */,
+				0598782E28893E7E00B91782 /* Utils */,
+				EC35F436284E95D100E99EF8 /* Bluetooth */,
+				EC09E17D283FCC000013E7BC /* Debug */,
+				EC6C16E6282EF6B000027C31 /* Model */,
+				ECCEEE87282EBB5F00837467 /* Modifiers */,
+				EC6132FE27FCC0E5003019EA /* Product Database */,
+				ECBEBEE127FF7A7D007B66BA /* Views */,
+				EC6132D627FCB609003019EA /* Assets.xcassets */,
+				EC6132F527FCC036003019EA /* ProductData.cldb */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EC6132DC27FCB609003019EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6132DB27FCB609003019EA /* CastleLink.app */,
+				EC6132E127FCB609003019EA /* CastleLink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6132E227FCB609003019EA /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				EC4371E0285BBE3300DD7BBA /* AppDelegate.swift */,
+				ECC9C796285D053C00EC373B /* ControllerSettingsSections.swift */,
+				ECC9C790285CF84000EC373B /* ControllerSettingsView.swift */,
+				ECC9C792285CF98500EC373B /* DemoModeItemView.swift */,
+				ECC9C78E285CCBF900EC373B /* DemoModeSection.swift */,
+				ECC9C78C285C427A00EC373B /* DemoModeView.swift */,
+				ECC9C794285D024000EC373B /* DetailTwoPaneView.swift */,
+				ECC9C78A285C39E400EC373B /* HomeView.swift */,
+				ECC9C798285D0B1700EC373B /* LinkControllerRow.swift */,
+				EC4371E2285C083800DD7BBA /* LinkControllerView.swift */,
+				ECC9C783285C37A000EC373B /* MainViewController.swift */,
+				EC4371DE285BB9E300DD7BBA /* SidebarView.swift */,
+				ECC9C787285C38C000EC373B /* ToolbarView.swift */,
+				EC6C16E2282EE7CE00027C31 /* Info.plist */,
+				EC6132E327FCB609003019EA /* macOS.entitlements */,
+				ECC9C784285C37CF00EC373B /* Main.storyboard */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		EC6132FE27FCC0E5003019EA /* Product Database */ = {
+			isa = PBXGroup;
+			children = (
+				ECF6F85C27FF39C400C5FD1A /* ConnectHelp.swift */,
+				ECF6F85927FF35F200C5FD1A /* Firmware.swift */,
+				ECF6F85327FE9C6400C5FD1A /* MultiLang.swift */,
+				ECF6F85627FF350500C5FD1A /* Product.swift */,
+				EC6132FB27FCC0DC003019EA /* ProductData.swift */,
+				EC61330227FDCEBC003019EA /* Setting.swift */,
+				EC6132FF27FDCC47003019EA /* SettingGroup.swift */,
+				ECCEEE7B282C92A800837467 /* SettingLinearSpinner.swift */,
+				ECF6F84D27FE8A0A00C5FD1A /* SettingOption.swift */,
+				ECF6F85027FE900300C5FD1A /* SettingSubgroup.swift */,
+			);
+			path = "Product Database";
+			sourceTree = "<group>";
+		};
+		EC6C16E6282EF6B000027C31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC6C16E7282EF6C800027C31 /* Curve.swift */,
+				EC86F693283BD87D007AB7B8 /* CurvePoint.swift */,
+				ECE455802852CFB900641726 /* ESC.swift */,
+				EC09E174283D708D0013E7BC /* SettingMemory.swift */,
+				EC09E16E283D6C670013E7BC /* SettingValue.swift */,
+				EC09E171283D6E8A0013E7BC /* SettingValueSet.swift */,
+				0598782B28893D6000B91782 /* LoginData.swift */,
+				059878352889519700B91782 /* RegistedData.swift */,
+				059878322889428800B91782 /* AppInfo.swift */,
+				0598784F288AAF7600B91782 /* UserData.swift */,
+				05807F7628902D5800E08D22 /* ResetPasswordData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECBEBEE127FF7A7D007B66BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC39A51928332CD400B25F7A /* Controls */,
+				EC1CB6A5284FB3000061ED52 /* ControllerView.swift */,
+				ECBEBEE227FF7BA3007B66BA /* DemoSettingsView.swift */,
+				ECF16DCB2857CB59000BE51D /* PasscodeView.swift */,
+				ECCEEE84282DA90400837467 /* ProductActionRow.swift */,
+				ECCEEE81282D7B3A00837467 /* ProductHeaderRow.swift */,
+				ECBEBEE527FF7E55007B66BA /* SettingRow.swift */,
+				ECCEEE75282C78B700837467 /* SettingRowCombo.swift */,
+				ECCEEE7E282D643C00837467 /* SettingRowCurve.swift */,
+				ECCEEE6F282C65BC00837467 /* SettingRowHeader.swift */,
+				EC86F68728348A40007AB7B8 /* SettingRowHelp.swift */,
+				ECCEEE78282C806A00837467 /* SettingRowSlider.swift */,
+				ECCEEE72282C743400837467 /* SettingRowSwitch.swift */,
+				ECD75229283D55FA00B34AD4 /* SettingsHelpSheet.swift */,
+				059B33232881576F0054502F /* CastleLinkFooterView.swift */,
+				059B332F288183FB0054502F /* CastleLinkHeaderView.swift */,
+				059B33352881AAEE0054502F /* LoadingSpinner.swift */,
+				05B889732886DB34004D33F1 /* LoadingView.swift */,
+				0598784D288AA28600B91782 /* ErrorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECCEEE87282EBB5F00837467 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				ECCEEE88282EBB7100837467 /* AnimatedCellHeight.swift */,
+				05B88977288729F1004D33F1 /* TextFieldShowError.swift */,
+				05807F702890092F00E08D22 /* HideKeyboard.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		ECCEEE91282EC59D00837467 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0598784A288A9C7100B91782 /* Home */,
+				059878382889537000B91782 /* LoginAndRegistration */,
+				ECCEEE92282EC5C000837467 /* CastleLinkApp.swift */,
+				ECEB22672846975900F5CA1B /* DemoSelectSection.swift */,
+				EC6132D527FCB608003019EA /* DemoSelectView.swift */,
+				ECEB2276284864F200F5CA1B /* LinkControllerRow.swift */,
+				ECEB22702847FF6B00F5CA1B /* LinkControllerView.swift */,
+				059B3332288184EE0054502F /* AboutView.swift */,
+				ECCEEE98282ECB0600837467 /* Info.plist */,
+				05987848288A9AF100B91782 /* GoogleService-Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6132DA27FCB609003019EA /* CastleLink (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6132EC27FCB609003019EA /* Build configuration list for PBXNativeTarget "CastleLink (iOS)" */;
+			buildPhases = (
+				ECCEEE96282ECAB800837467 /* Update Build Number */,
+				EC6132D727FCB609003019EA /* Sources */,
+				EC6132D827FCB609003019EA /* Frameworks */,
+				EC6132D927FCB609003019EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CastleLink (iOS)";
+			packageProductDependencies = (
+				0598783A288A981300B91782 /* FirebaseAnalytics */,
+				0598783C288A981300B91782 /* FirebaseAuth */,
+				0598783E288A981300B91782 /* FirebaseAuthCombine-Community */,
+				05987840288A981300B91782 /* FirebaseCrashlytics */,
+				05987842288A981300B91782 /* FirebaseDatabase */,
+				05987844288A981300B91782 /* FirebaseFirestore */,
+			);
+			productName = "CastleLink (iOS)";
+			productReference = EC6132DB27FCB609003019EA /* CastleLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC6132E027FCB609003019EA /* CastleLink (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6132EF27FCB609003019EA /* Build configuration list for PBXNativeTarget "CastleLink (macOS)" */;
+			buildPhases = (
+				ECCEEE97282ECAD500837467 /* Update Build Number */,
+				EC6132DD27FCB609003019EA /* Sources */,
+				EC6132DE27FCB609003019EA /* Frameworks */,
+				EC6132DF27FCB609003019EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CastleLink (macOS)";
+			productName = "CastleLink (macOS)";
+			productReference = EC6132E127FCB609003019EA /* CastleLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6132CF27FCB608003019EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = "Castle Creations";
+				TargetAttributes = {
+					EC6132DA27FCB609003019EA = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					EC6132E027FCB609003019EA = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = EC6132D227FCB608003019EA /* Build configuration list for PBXProject "CastleLink" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC6132CE27FCB608003019EA;
+			packageReferences = (
+				05987839288A981300B91782 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = EC6132DC27FCB609003019EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6132DA27FCB609003019EA /* CastleLink (iOS) */,
+				EC6132E027FCB609003019EA /* CastleLink (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC6132D927FCB609003019EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6132E827FCB609003019EA /* Assets.xcassets in Resources */,
+				EC6132F627FCC036003019EA /* ProductData.cldb in Resources */,
+				05987849288A9AF100B91782 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6132DF27FCB609003019EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6132E927FCB609003019EA /* Assets.xcassets in Resources */,
+				ECC9C786285C37CF00EC373B /* Main.storyboard in Resources */,
+				EC6132F727FCC036003019EA /* ProductData.cldb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ECCEEE96282ECAB800837467 /* Update Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Update Build Number";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"UpdateBuildNumber.sh\"\n";
+		};
+		ECCEEE97282ECAD500837467 /* Update Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Update Build Number";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"UpdateBuildNumber.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6132D727FCB609003019EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEB226E2847ED8700F5CA1B /* Bluetooth.swift in Sources */,
+				05E3AA8C287F56450040D730 /* CastleTextField.swift in Sources */,
+				ECEB22742848435200F5CA1B /* BluetoothDevice.swift in Sources */,
+				05987850288AAF7600B91782 /* UserData.swift in Sources */,
+				EC35F434284E773E00E99EF8 /* BluetoothRequest.swift in Sources */,
+				059B3333288184EE0054502F /* AboutView.swift in Sources */,
+				ECE68703284FEFDD002430D6 /* ClassicRequests.swift in Sources */,
+				EC1CB6A3284FB0710061ED52 /* ControlRequests.swift in Sources */,
+				ECE6870628518440002430D6 /* LargeRequests.swift in Sources */,
+				EC09E178283FA4CF0013E7BC /* Debug.swift in Sources */,
+				05987853288AD46900B91782 /* ForgotPasswordView.swift in Sources */,
+				EC09E17B283FC79D0013E7BC /* DebugSheet.swift in Sources */,
+				059B332728815C650054502F /* RegisterAccountView.swift in Sources */,
+				EC6C16E8282EF6C800027C31 /* Curve.swift in Sources */,
+				EC86F694283BD87D007AB7B8 /* CurvePoint.swift in Sources */,
+				ECE455812852CFB900641726 /* ESC.swift in Sources */,
+				EC09E175283D708D0013E7BC /* SettingMemory.swift in Sources */,
+				EC09E16F283D6C670013E7BC /* SettingValue.swift in Sources */,
+				EC09E172283D6E8A0013E7BC /* SettingValueSet.swift in Sources */,
+				ECCEEE89282EBB7200837467 /* AnimatedCellHeight.swift in Sources */,
+				ECF6F85D27FF39C400C5FD1A /* ConnectHelp.swift in Sources */,
+				05E3AA89287DBE1A0040D730 /* CastleTextFieldStype.swift in Sources */,
+				05E3AA90288049A70040D730 /* LoginView.swift in Sources */,
+				ECF6F85A27FF35F200C5FD1A /* Firmware.swift in Sources */,
+				ECF6F85427FE9C6400C5FD1A /* MultiLang.swift in Sources */,
+				ECF6F85727FF350500C5FD1A /* Product.swift in Sources */,
+				EC6132FC27FCC0DC003019EA /* ProductData.swift in Sources */,
+				EC61330327FDCEBC003019EA /* Setting.swift in Sources */,
+				EC61330027FDCC47003019EA /* SettingGroup.swift in Sources */,
+				ECCEEE7C282C92A800837467 /* SettingLinearSpinner.swift in Sources */,
+				05807F7728902D5800E08D22 /* ResetPasswordData.swift in Sources */,
+				ECF6F84E27FE8A0A00C5FD1A /* SettingOption.swift in Sources */,
+				ECF6F85127FE900300C5FD1A /* SettingSubgroup.swift in Sources */,
+				EC39A5212833C0A200B25F7A /* CastleButtonStyle.swift in Sources */,
+				05B88978288729F1004D33F1 /* TextFieldShowError.swift in Sources */,
+				EC39A51E28333E2B00B25F7A /* CastleSegmentGrid.swift in Sources */,
+				EC86F67F283402F3007AB7B8 /* CastleSegmentSelector.swift in Sources */,
+				EC86F6822834524E007AB7B8 /* CastleSlider.swift in Sources */,
+				059B33242881576F0054502F /* CastleLinkFooterView.swift in Sources */,
+				EC86F685283455C1007AB7B8 /* CastleSliderKnob.swift in Sources */,
+				059B3330288183FB0054502F /* CastleLinkHeaderView.swift in Sources */,
+				EC39A51B28332CE800B25F7A /* CastleToggleSwitch.swift in Sources */,
+				0598784E288AA28600B91782 /* ErrorView.swift in Sources */,
+				059B332A28815C9D0054502F /* LoginRegisterActionRow.swift in Sources */,
+				ECCEEE8C282EBC1400837467 /* CurveEditor.swift in Sources */,
+				EC86F68E28355E0F007AB7B8 /* CurveEditorControls.swift in Sources */,
+				ECCEEE8F282EBE6C00837467 /* CurveEditorHandle.swift in Sources */,
+				EC6C16E4282EF15F00027C31 /* CurveEditorHighlight.swift in Sources */,
+				EC1CB6A6284FB3000061ED52 /* ControllerView.swift in Sources */,
+				ECBEBEE327FF7BA3007B66BA /* DemoSettingsView.swift in Sources */,
+				ECEB226B2846989E00F5CA1B /* Line.swift in Sources */,
+				ECF16DCF2857CD85000BE51D /* PasscodeButton.swift in Sources */,
+				05E5C8942891738F00C69817 /* CastleLinkError.swift in Sources */,
+				ECEB227A284A8DA600F5CA1B /* RowBackground.swift in Sources */,
+				ECF16DCC2857CB59000BE51D /* PasscodeView.swift in Sources */,
+				ECCEEE85282DA90400837467 /* ProductActionRow.swift in Sources */,
+				059B33362881AAEE0054502F /* LoadingSpinner.swift in Sources */,
+				059878332889428800B91782 /* AppInfo.swift in Sources */,
+				ECCEEE82282D7B3A00837467 /* ProductHeaderRow.swift in Sources */,
+				ECBEBEE627FF7E55007B66BA /* SettingRow.swift in Sources */,
+				ECCEEE76282C78B700837467 /* SettingRowCombo.swift in Sources */,
+				ECCEEE7F282D643C00837467 /* SettingRowCurve.swift in Sources */,
+				05B889742886DB34004D33F1 /* LoadingView.swift in Sources */,
+				0598783028893E9B00B91782 /* Validator.swift in Sources */,
+				ECCEEE70282C65BC00837467 /* SettingRowHeader.swift in Sources */,
+				EC86F68828348A40007AB7B8 /* SettingRowHelp.swift in Sources */,
+				ECCEEE79282C806A00837467 /* SettingRowSlider.swift in Sources */,
+				ECCEEE73282C743400837467 /* SettingRowSwitch.swift in Sources */,
+				05807F712890092F00E08D22 /* HideKeyboard.swift in Sources */,
+				ECD7522A283D55FA00B34AD4 /* SettingsHelpSheet.swift in Sources */,
+				0598784C288A9C7D00B91782 /* HomeView.swift in Sources */,
+				ECCEEE93282EC5C000837467 /* CastleLinkApp.swift in Sources */,
+				0598782C28893D6000B91782 /* LoginData.swift in Sources */,
+				ECEB22682846975900F5CA1B /* DemoSelectSection.swift in Sources */,
+				EC6132E627FCB609003019EA /* DemoSelectView.swift in Sources */,
+				0558D39E287C4FBB00406344 /* LoginAndRegisterView.swift in Sources */,
+				ECEB2277284864F200F5CA1B /* LinkControllerRow.swift in Sources */,
+				059878362889519700B91782 /* RegistedData.swift in Sources */,
+				ECEB22712847FF6B00F5CA1B /* LinkControllerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6132DD27FCB609003019EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEB226F2847ED8700F5CA1B /* Bluetooth.swift in Sources */,
+				ECEB22752848435200F5CA1B /* BluetoothDevice.swift in Sources */,
+				EC35F435284E773E00E99EF8 /* BluetoothRequest.swift in Sources */,
+				ECE68704284FEFDD002430D6 /* ClassicRequests.swift in Sources */,
+				EC1CB6A4284FB0710061ED52 /* ControlRequests.swift in Sources */,
+				ECE6870728518440002430D6 /* LargeRequests.swift in Sources */,
+				EC09E179283FA4CF0013E7BC /* Debug.swift in Sources */,
+				EC09E17C283FC79D0013E7BC /* DebugSheet.swift in Sources */,
+				EC6C16E9282EF6C800027C31 /* Curve.swift in Sources */,
+				059878372889519700B91782 /* RegistedData.swift in Sources */,
+				05E3AA8A287DBE1A0040D730 /* CastleTextFieldStype.swift in Sources */,
+				059878342889428800B91782 /* AppInfo.swift in Sources */,
+				EC86F695283BD87D007AB7B8 /* CurvePoint.swift in Sources */,
+				05E5C8952891738F00C69817 /* CastleLinkError.swift in Sources */,
+				ECE455822852CFB900641726 /* ESC.swift in Sources */,
+				EC09E176283D708D0013E7BC /* SettingMemory.swift in Sources */,
+				EC09E170283D6C670013E7BC /* SettingValue.swift in Sources */,
+				05987851288AAF7600B91782 /* UserData.swift in Sources */,
+				EC09E173283D6E8A0013E7BC /* SettingValueSet.swift in Sources */,
+				05807F7828902D5800E08D22 /* ResetPasswordData.swift in Sources */,
+				ECCEEE8A282EBB7200837467 /* AnimatedCellHeight.swift in Sources */,
+				ECF6F85E27FF39C400C5FD1A /* ConnectHelp.swift in Sources */,
+				ECF6F85B27FF35F200C5FD1A /* Firmware.swift in Sources */,
+				ECF6F85527FE9C6400C5FD1A /* MultiLang.swift in Sources */,
+				ECF6F85827FF350500C5FD1A /* Product.swift in Sources */,
+				EC6132FD27FCC0DC003019EA /* ProductData.swift in Sources */,
+				EC61330427FDCEBC003019EA /* Setting.swift in Sources */,
+				EC61330127FDCC47003019EA /* SettingGroup.swift in Sources */,
+				ECCEEE7D282C92A800837467 /* SettingLinearSpinner.swift in Sources */,
+				ECF6F84F27FE8A0A00C5FD1A /* SettingOption.swift in Sources */,
+				ECF6F85227FE900300C5FD1A /* SettingSubgroup.swift in Sources */,
+				EC39A5222833C0A200B25F7A /* CastleButtonStyle.swift in Sources */,
+				EC39A51F28333E2B00B25F7A /* CastleSegmentGrid.swift in Sources */,
+				EC86F680283402F3007AB7B8 /* CastleSegmentSelector.swift in Sources */,
+				EC86F6832834524E007AB7B8 /* CastleSlider.swift in Sources */,
+				EC86F686283455C1007AB7B8 /* CastleSliderKnob.swift in Sources */,
+				05987854288AD46900B91782 /* ForgotPasswordView.swift in Sources */,
+				EC39A51C28332CE800B25F7A /* CastleToggleSwitch.swift in Sources */,
+				ECCEEE8D282EBC1400837467 /* CurveEditor.swift in Sources */,
+				EC86F68F28355E0F007AB7B8 /* CurveEditorControls.swift in Sources */,
+				ECCEEE90282EBE6C00837467 /* CurveEditorHandle.swift in Sources */,
+				EC6C16E5282EF15F00027C31 /* CurveEditorHighlight.swift in Sources */,
+				ECEB226C2846989E00F5CA1B /* Line.swift in Sources */,
+				ECF16DD02857CD85000BE51D /* PasscodeButton.swift in Sources */,
+				ECEB227B284A8DA600F5CA1B /* RowBackground.swift in Sources */,
+				EC1CB6A7284FB3000061ED52 /* ControllerView.swift in Sources */,
+				ECBEBEE427FF7BA3007B66BA /* DemoSettingsView.swift in Sources */,
+				ECF16DCD2857CB59000BE51D /* PasscodeView.swift in Sources */,
+				ECCEEE86282DA90400837467 /* ProductActionRow.swift in Sources */,
+				ECCEEE83282D7B3A00837467 /* ProductHeaderRow.swift in Sources */,
+				ECBEBEE727FF7E55007B66BA /* SettingRow.swift in Sources */,
+				ECCEEE77282C78B700837467 /* SettingRowCombo.swift in Sources */,
+				059B33372881AAEE0054502F /* LoadingSpinner.swift in Sources */,
+				05E3AA8D287F56450040D730 /* CastleTextField.swift in Sources */,
+				0598782D28893D6000B91782 /* LoginData.swift in Sources */,
+				ECCEEE80282D643C00837467 /* SettingRowCurve.swift in Sources */,
+				ECCEEE71282C65BC00837467 /* SettingRowHeader.swift in Sources */,
+				EC86F68928348A40007AB7B8 /* SettingRowHelp.swift in Sources */,
+				ECCEEE7A282C806A00837467 /* SettingRowSlider.swift in Sources */,
+				059B3334288184EE0054502F /* AboutView.swift in Sources */,
+				ECCEEE74282C743400837467 /* SettingRowSwitch.swift in Sources */,
+				05807F722890092F00E08D22 /* HideKeyboard.swift in Sources */,
+				ECD7522B283D55FA00B34AD4 /* SettingsHelpSheet.swift in Sources */,
+				EC4371E1285BBE3300DD7BBA /* AppDelegate.swift in Sources */,
+				ECC9C797285D053C00EC373B /* ControllerSettingsSections.swift in Sources */,
+				059B3331288183FB0054502F /* CastleLinkHeaderView.swift in Sources */,
+				ECC9C791285CF84000EC373B /* ControllerSettingsView.swift in Sources */,
+				ECC9C793285CF98500EC373B /* DemoModeItemView.swift in Sources */,
+				0598783128893E9B00B91782 /* Validator.swift in Sources */,
+				ECC9C78F285CCBF900EC373B /* DemoModeSection.swift in Sources */,
+				ECC9C78D285C427A00EC373B /* DemoModeView.swift in Sources */,
+				ECC9C795285D024000EC373B /* DetailTwoPaneView.swift in Sources */,
+				ECC9C78B285C39E400EC373B /* HomeView.swift in Sources */,
+				05B889752886DB34004D33F1 /* LoadingView.swift in Sources */,
+				ECC9C799285D0B1700EC373B /* LinkControllerRow.swift in Sources */,
+				EC4371E3285C083800DD7BBA /* LinkControllerView.swift in Sources */,
+				ECC9C789285C398100EC373B /* MainViewController.swift in Sources */,
+				05B88979288729F1004D33F1 /* TextFieldShowError.swift in Sources */,
+				EC4371DF285BB9E300DD7BBA /* SidebarView.swift in Sources */,
+				ECC9C788285C38C000EC373B /* ToolbarView.swift in Sources */,
+				059B33252881576F0054502F /* CastleLinkFooterView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECC9C784285C37CF00EC373B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC9C785285C37CF00EC373B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC6132EA27FCB609003019EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC6132EB27FCB609003019EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EC6132ED27FCB609003019EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 43;
+				DEVELOPMENT_TEAM = R3Z9MDW5JB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.castlecreations.castlelink.development;
+				PRODUCT_NAME = CastleLink;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EC6132EE27FCB609003019EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 43;
+				DEVELOPMENT_TEAM = R3Z9MDW5JB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.castlecreations.castlelink.development;
+				PRODUCT_NAME = CastleLink;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC6132F027FCB609003019EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BZ7FRR6Z9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.castlecreations.castlelink.development;
+				PRODUCT_NAME = CastleLink;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EC6132F127FCB609003019EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BZ7FRR6Z9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.castlecreations.castlelink.development;
+				PRODUCT_NAME = CastleLink;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6132D227FCB608003019EA /* Build configuration list for PBXProject "CastleLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6132EA27FCB609003019EA /* Debug */,
+				EC6132EB27FCB609003019EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6132EC27FCB609003019EA /* Build configuration list for PBXNativeTarget "CastleLink (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6132ED27FCB609003019EA /* Debug */,
+				EC6132EE27FCB609003019EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6132EF27FCB609003019EA /* Build configuration list for PBXNativeTarget "CastleLink (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6132F027FCB609003019EA /* Debug */,
+				EC6132F127FCB609003019EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		05987839288A981300B91782 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0598783A288A981300B91782 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05987839288A981300B91782 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		0598783C288A981300B91782 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05987839288A981300B91782 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0598783E288A981300B91782 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05987839288A981300B91782 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		05987840288A981300B91782 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05987839288A981300B91782 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		05987842288A981300B91782 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05987839288A981300B91782 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		05987844288A981300B91782 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05987839288A981300B91782 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EC6132CF27FCB608003019EA /* Project object */;
+}

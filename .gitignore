@@ -1,0 +1,33 @@
+# os generated files
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcbkptlist
+*.xcuserstate
+Build/*
+DerivedData/
+xcuserdata
+
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+*.moved-aside
+
+# appcode
+*/.idea/workspace.xml
+*/.idea/Truecaller_iOS.iml
+
+# cocoapods
+*/.project_cache/*
